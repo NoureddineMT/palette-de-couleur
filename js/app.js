@@ -1,4 +1,4 @@
-
+$(document).ready(function () {
 
     // RECTANGLES
     for (let i = 1; i <= 16; i++) {
@@ -58,5 +58,5 @@
         $(".opacity span").html(opacity);
         $(".result #currentOpacity").html(opacity);
 
+        });
     });
-
